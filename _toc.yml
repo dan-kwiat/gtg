@@ -33,5 +33,5 @@ chapters:
       - file: scenario_1
       - file: local_outbreak
   - file: coalestr-module
-    section:
+    sections:
       - file: coalestr
