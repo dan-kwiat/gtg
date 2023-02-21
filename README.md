@@ -10,7 +10,7 @@
 
 - [Nucleotide diversity of the global population](diversity_global.ipynb)
 
-Genetic variation at a haplotype locus
+## Genetic variation at a haplotype locus
 
 - [Haplotype homozygosity of a 2 centimorgan locus](haplotype_homozygosity_27kb.ipynb)
 - [Variation of homozygosity with haplotype length](haplotype_homozygosity_vs_length.ipynb)
