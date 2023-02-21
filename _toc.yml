@@ -1,0 +1,38 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+chapters:
+  - file: README
+  - file: a-framework-for-analysing-the-coalescent-process
+    sections:
+      - file: coalescence_time_basic
+      - file: coalescence_time
+      - file: coalescence_time_examples
+  - file: genetic-variation-at-a-point-locus
+    sections:
+      - file: diversity_global
+  - file: genetic-variation-at-a-haplotype-locus
+    sections:
+      - file: haplotype_homozygosity_27kb
+      - file: haplotype_homozygosity_vs_length
+      - file: ibd_vs_nh
+  - file: population-structure-and-migration
+    sections:
+      - file: migration_simple
+      - file: hierarchical_population_structure
+      - file: migration_Fst
+      - file: migration_time_series
+  - file: fws-methods
+    sections:
+      - file: hw_vs_hs
+      - file: fws_compare_methods
+  - file: time-series-epidemiological-scenarios
+    sections:
+      - file: species_history
+      - file: scenario_1
+      - file: local_outbreak
+  - file: coalestr-module
+    section:
+      - file: coalestr
