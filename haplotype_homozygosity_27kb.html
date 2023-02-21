@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>GTG &#8212; GTG</title>
+    <title>Haplotype homozygosity of a 27kb locus &#8212; GTG</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,7 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="A framework for analysing the coalescent process" href="a-framework-for-analysing-the-coalescent-process.html" />
+    <link rel="next" title="Haplotype homozygosity vs length" href="haplotype_homozygosity_vs_length.html" />
+    <link rel="prev" title="Genetic variation at a haplotype locus" href="genetic-variation-at-a-haplotype-locus.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -106,13 +107,13 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="README.html">
                     GTG
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="a-framework-for-analysing-the-coalescent-process.html">
    A framework for analysing the coalescent process
@@ -152,18 +153,18 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
   </ul>
  </li>
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="genetic-variation-at-a-haplotype-locus.html">
    Genetic variation at a haplotype locus
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
   <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="haplotype_homozygosity_27kb.html">
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      Haplotype homozygosity of a 27kb locus
     </a>
    </li>
@@ -318,6 +319,35 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/haplotype_homozygosity_27kb.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -357,7 +387,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FREADME.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fhaplotype_homozygosity_27kb.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -385,7 +415,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/README.md"
+        <a href="_sources/haplotype_homozygosity_27kb.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -396,7 +426,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="headerbtn__text-container">.ipynb</span>
 </a>
 
       </li>
@@ -422,130 +452,23 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#a-framework-for-analysing-the-coalescent-process">
-   A framework for analysing the coalescent process
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#genetic-variation-at-a-point-locus">
-   Genetic variation at a point locus
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#genetic-variation-at-a-haplotype-locus">
-   Genetic variation at a haplotype locus
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#population-structure-and-migration">
-   Population structure and migration
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#fws-methods">
-   Fws methods
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#time-series-epidemiological-scenarios">
-   Time series epidemiological scenarios
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#coalestr-module">
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     coalestr
-    </span>
-   </code>
-   module
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>GTG</h1>
+                <h1>Haplotype homozygosity of a 27kb locus</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#a-framework-for-analysing-the-coalescent-process">
-   A framework for analysing the coalescent process
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#genetic-variation-at-a-point-locus">
-   Genetic variation at a point locus
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#genetic-variation-at-a-haplotype-locus">
-   Genetic variation at a haplotype locus
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#population-structure-and-migration">
-   Population structure and migration
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#fws-methods">
-   Fws methods
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#time-series-epidemiological-scenarios">
-   Time series epidemiological scenarios
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#coalestr-module">
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     coalestr
-    </span>
-   </code>
-   module
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -553,61 +476,67 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="gtg">
-<h1>GTG<a class="headerlink" href="#gtg" title="Permalink to this headline">#</a></h1>
-<section id="a-framework-for-analysing-the-coalescent-process">
-<h2>A framework for analysing the coalescent process<a class="headerlink" href="#a-framework-for-analysing-the-coalescent-process" title="Permalink to this headline">#</a></h2>
+  <section class="tex2jax_ignore mathjax_ignore" id="haplotype-homozygosity-of-a-27kb-locus">
+<h1>Haplotype homozygosity of a 27kb locus<a class="headerlink" href="#haplotype-homozygosity-of-a-27kb-locus" title="Permalink to this headline">#</a></h1>
 <ul class="simple">
-<li><p><a class="reference internal" href="coalescence_time_basic.html"><span class="doc std std-doc">Time to coalescence - a basic version showing all the steps</span></a></p></li>
-<li><p><a class="reference internal" href="coalescence_time.html"><span class="doc std std-doc">Time to coalescence using <code class="docutils literal notranslate"><span class="pre">coalestr</span></code></span></a></p></li>
-<li><p><a class="reference internal" href="coalescence_time_examples.html"><span class="doc std std-doc">Time to coalescence - examples using <code class="docutils literal notranslate"><span class="pre">coalestr</span></code></span></a></p></li>
+<li><p>My Drive/GitHub/transmission_ms/haplotype_homozygosity_27kb.ipynb</p></li>
+<li><p>Started 7 Nov 2022</p></li>
+<li><p>From 210823_haplotype_homozygosity.ipynb</p></li>
 </ul>
-</section>
-<section id="genetic-variation-at-a-point-locus">
-<h2>Genetic variation at a point locus<a class="headerlink" href="#genetic-variation-at-a-point-locus" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p><a class="reference internal" href="diversity_global.html"><span class="doc std std-doc">Nucleotide diversity of the global population</span></a></p></li>
-</ul>
-</section>
-<section id="genetic-variation-at-a-haplotype-locus">
-<h2>Genetic variation at a haplotype locus<a class="headerlink" href="#genetic-variation-at-a-haplotype-locus" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p><a class="reference internal" href="haplotype_homozygosity_27kb.html"><span class="doc std std-doc">Haplotype homozygosity of a 2 centimorgan locus</span></a></p></li>
-<li><p><a class="reference internal" href="haplotype_homozygosity_vs_length.html"><span class="doc std std-doc">Variation of homozygosity with haplotype length</span></a></p></li>
-<li><p><a class="reference internal" href="ibd_vs_nh.html"><span class="doc std std-doc">IBD metrics vs Nh</span></a></p></li>
-</ul>
-</section>
-<section id="population-structure-and-migration">
-<h2>Population structure and migration<a class="headerlink" href="#population-structure-and-migration" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p><a class="reference internal" href="migration_simple.html"><span class="doc std std-doc">Effect of global dispersal on local genetic diversity</span></a></p></li>
-<li><p><a class="reference internal" href="hierarchical_population_structure.html"><span class="doc std std-doc">Hierarchical population structure</span></a></p></li>
-<li><p><a class="reference internal" href="migration_Fst.html"><span class="doc std std-doc">Migration and Fst</span></a></p></li>
-<li><p><a class="reference internal" href="migration_time_series.html"><span class="doc std std-doc">Migration time series</span></a></p></li>
-</ul>
-</section>
-<section id="fws-methods">
-<h2>Fws methods<a class="headerlink" href="#fws-methods" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p><a class="reference internal" href="hw_vs_hs.html"><span class="doc std std-doc">Hw versus Hs</span></a></p></li>
-<li><p><a class="reference internal" href="fws_compare_methods.html"><span class="doc std std-doc">Fws compare methods</span></a></p></li>
-</ul>
-</section>
-<section id="time-series-epidemiological-scenarios">
-<h2>Time series epidemiological scenarios<a class="headerlink" href="#time-series-epidemiological-scenarios" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p><a class="reference internal" href="species_history.html"><span class="doc std std-doc">Species history</span></a></p></li>
-<li><p><a class="reference internal" href="scenario_1.html"><span class="doc std std-doc">Scenarios #1</span></a></p></li>
-<li><p><a class="reference internal" href="local_outbreak.html"><span class="doc std std-doc">Local outbreak</span></a></p></li>
-</ul>
-</section>
-<section id="coalestr-module">
-<h2><code class="docutils literal notranslate"><span class="pre">coalestr</span></code> module<a class="headerlink" href="#coalestr-module" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p><span class="xref myst">View the code</span></p></li>
-</ul>
-</section>
-<div class="toctree-wrapper compound">
+<p>We calculate and plot the variation of homozygosity for a 27kb locus for different sets of transmission parameters</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">coalestr</span> <span class="k">as</span> <span class="nn">cs</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">N_list</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1001</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">Q_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+<span class="n">X_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+
+<span class="n">duration</span> <span class="o">=</span> <span class="mi">10000</span> <span class="c1"># duration of simulation in generation</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="p">[</span><span class="n">a1</span><span class="p">,</span> <span class="n">a2</span><span class="p">]</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="n">sharey</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">X</span> <span class="ow">in</span> <span class="n">X_list</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">Q</span> <span class="ow">in</span> <span class="n">Q_list</span><span class="p">:</span>
+        
+        <span class="n">beho_hap_hom</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">wiho_hap_hom</span> <span class="o">=</span> <span class="p">[]</span>
+        
+        <span class="k">for</span> <span class="n">N</span> <span class="ow">in</span> <span class="n">N_list</span><span class="p">:</span>
+            <span class="n">history</span> <span class="o">=</span> <span class="p">[[</span><span class="n">duration</span><span class="p">,</span> <span class="n">N</span><span class="p">,</span> <span class="n">Q</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="mi">0</span><span class="p">]]</span>  <span class="c1"># t_his, Nh, Q, chi, migration</span>
+            <span class="n">my_pop</span> <span class="o">=</span> <span class="n">cs</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="n">history</span><span class="p">)</span>
+            <span class="n">my_pop</span><span class="o">.</span><span class="n">get_coalescent</span><span class="p">(</span><span class="n">observe</span> <span class="o">=</span> <span class="s2">&quot;auto&quot;</span><span class="p">,</span> <span class="n">show</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+            <span class="n">my_pop</span><span class="o">.</span><span class="n">get_diversity</span><span class="p">(</span><span class="n">show</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+
+            <span class="n">beho_hap_hom</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">my_pop</span><span class="o">.</span><span class="n">diversity</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span> <span class="c1"># between-host haplotype homozygosity</span>
+            <span class="n">wiho_hap_hom</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">my_pop</span><span class="o">.</span><span class="n">diversity</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">])</span> <span class="c1"># within-host haplotype homozygosity</span>
+
+        <span class="n">a1</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">N_list</span><span class="p">,</span> <span class="n">beho_hap_hom</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\u03C7</span><span class="s1"> </span><span class="si">{0:.1f}</span><span class="s1">, Q </span><span class="si">{1:.0f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Q</span><span class="p">))</span>
+        <span class="n">a2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">N_list</span><span class="p">,</span> <span class="n">wiho_hap_hom</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\u03C7</span><span class="s1"> </span><span class="si">{0:.1f}</span><span class="s1">, Q </span><span class="si">{1:.0f}</span><span class="s1">,&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Q</span><span class="p">))</span>   
+
+
+<span class="n">a1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&quot;Nh&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">a1</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;Haplotype homozygosity&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">a1</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Between hosts&#39;</span><span class="p">,</span> <span class="n">frameon</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">a1</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">which</span><span class="o">=</span><span class="s1">&#39;both&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;0.65&#39;</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
+
+<span class="n">a2</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&quot;Nh&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">a2</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s1">&#39;Within-host&#39;</span><span class="p">,</span> <span class="n">frameon</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">a2</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">b</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">which</span><span class="o">=</span><span class="s1">&#39;both&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;0.65&#39;</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/haplotype_homozygosity_27kb_2_0.png" src="_images/haplotype_homozygosity_27kb_2_0.png" />
+</div>
 </div>
 </section>
 
@@ -638,10 +567,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="a-framework-for-analysing-the-coalescent-process.html" title="next page">
+    <a class='left-prev' id="prev-link" href="genetic-variation-at-a-haplotype-locus.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Genetic variation at a haplotype locus</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="haplotype_homozygosity_vs_length.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">A framework for analysing the coalescent process</p>
+        <p class="prev-next-title">Haplotype homozygosity vs length</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
